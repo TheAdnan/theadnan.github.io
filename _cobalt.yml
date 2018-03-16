@@ -4,7 +4,6 @@ template_extensions:
   - md
   - liquid
 include_drafts: false
-ignore:
 destination: _site
 
 # Site options
