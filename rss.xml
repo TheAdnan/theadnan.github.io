@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>cobalt blog</title><link>http://example.com</link><description>Blog Posts Go Here</description><item><title>Test page</title><link>http://example.com/posts/test-page.html</link><description>&lt;h1&gt;This is our first Post!&lt;/h1&gt;
+</description><guid>http://example.com/posts/test-page.html</guid><pubDate>Fri, 16 Mar 2018 13:45:57 +0000</pubDate></item></channel></rss>
