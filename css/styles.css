@@ -1,7 +1,7 @@
 /* Typography */
 
 html {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'IBM Plex Mono', sans-serif;
 }
 
 @media (min-width: 576px) {
@@ -44,12 +44,13 @@ main {
 }
 
 main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
+	font-family: 'IBM Plex Mono', sans-serif;
 	font-size: 3.75em;
 	font-weight: 600;
 }
 
 main > .tagline {
+	font-family: 'IBM Plex Mono', sans-serif;
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
