@@ -11,7 +11,12 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/themes/green-white.css">
+	<link rel="stylesheet" href="css/green-white.css">
+	<script src="//cdn.rawgit.com/namuol/cheet.js/master/cheet.min.js" type="text/javascript"></script>
+	<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+			crossorigin="anonymous"></script>
 </head>
 <body>
 	<main>
@@ -23,7 +28,40 @@
 			<a target="_blank" href="https://www.quora.com/profile/Adnan-Ki%C4%8Din"><i class="fab fa-quora"></i></a>
 			<a target="_blank" href="https://web.telegram.org/#/im?p=@average_everyday_kicin"><i class="fab fa-telegram-plane"></i></a>
 			<a target="_blank" href="https://addons.mozilla.org/en-US/firefox/user/theadnan/"><i class="fab fa-firefox"></i></a>
-    </div>
+    	</div>
+		</br>
+
+		<div id="konami"></div>
 	</main>
+<footer>
+	<div class="is-small"><b>Try the konami codes to see some magic<b></div>
+	<ul>
+		<li class="is-small">
+			<b>Hadouken</b>: <code>← ← ↑ r</code>
+		</li>
+		<li class="is-small">
+			<b>Me IRL</b>: <code>k i c i n ↑ ↑</code>
+		</li>
+		<li class="is-small">
+			<b>Reset</b>: <code>r e s e t</code>
+		</li>
+	</ul>
+</footer>
 </body>
 </html>
+
+<script>
+    cheet('left left up r', function () {
+        $("#konami").replaceWith("<div id='konami'></div>");
+        $("#konami").append("<iframe src='https://giphy.com/embed/px6X1e8dWxdsc' width='50%' height='50%' style='position:relative' frameBorder='0' class='giphy-embed'></iframe><p><a href='https://giphy.com/gifs/street-fighter-popkey-px6X1e8dWxdsc'></a></p>");
+    });
+
+    cheet('k i c i n up up', function () {
+        $("#konami").replaceWith("<div id='konami'></div>");
+        $("#konami").append("<img src='me_irl.jpg'/>");
+    });
+
+    cheet('r e s e t', function () {
+        $("#konami").replaceWith("<div id='konami'></div>");
+    });
+</script>

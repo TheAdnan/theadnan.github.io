@@ -4,6 +4,11 @@ html {
 	font-family: 'IBM Plex Mono', sans-serif;
 }
 
+.is-small{
+	font-family: 'IBM Plex Mono', sans-serif;
+	color: #43a047;
+}
+
 @media (min-width: 576px) {
 	html {
 		font-size: 14px;
