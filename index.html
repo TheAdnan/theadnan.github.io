@@ -21,12 +21,13 @@
 		<div class="intro">Ahoy, I'm Kičin</div>
 		<div class="tagline">Software developer @ <a href="http://datazup.com/" target="_blank">Datazup</a> | Award losing developer | Rustacean and PHP dev</div>
 		<div class="icons-social">
-			<a target="_blank" href="https://github.com/TheAdnan"><i class="fab fa-github"></i></a>
-			<a target="_blank" href="https://www.linkedin.com/in/adnan-ki%C4%8Din-bb1885127/"><i class="fab fa-linkedin"></i></a>
-			<a target="_blank" href="https://www.quora.com/profile/Adnan-Ki%C4%8Din"><i class="fab fa-quora"></i></a>
-			<a target="_blank" href="https://web.telegram.org/#/im?p=@average_everyday_kicin"><i class="fab fa-telegram-plane"></i></a>
-			<a target="_blank" href="https://addons.mozilla.org/en-US/firefox/user/theadnan/"><i class="fab fa-firefox"></i></a>
-			<a href="#" id="project-open"><i class="fas fa-bug"></i></a>
+			<a target="_blank" href="https://github.com/TheAdnan" title="GitHub profile"><i class="fab fa-github"></i></a>
+			<a target="_blank" href="https://www.linkedin.com/in/adnan-ki%C4%8Din-bb1885127/" title="LinkedIn profile"><i class="fab fa-linkedin"></i></a>
+			<a target="_blank" href="https://www.quora.com/profile/Adnan-Ki%C4%8Din" title="Quora profile"><i class="fab fa-quora"></i></a>
+			<a target="_blank" href="https://web.telegram.org/#/im?p=@average_everyday_kicin" title="Telegram account"><i class="fab fa-telegram-plane"></i></a>
+			<a target="_blank" href="https://addons.mozilla.org/en-US/firefox/user/theadnan/" title="Firefox Add-on developer page"><i class="fab fa-firefox"></i></a>
+			<a target="_blank" href="https://www.meetup.com/sarajevo-openweb-meetup/" title="OpenWeb Sarajevo meetup"><i class="fab fa-meetup"></i></a>
+			<a href="#" id="project-open" title="My GitHub Projects"><i class="fas fa-bug"></i></a>
     	</div>
 		</br>
 
@@ -364,20 +365,24 @@
 	});
 
     cheet('left left up r', function () {
+        $("#projects").hide();
         $("#konami").replaceWith("<div id='konami'></div>");
         $("#konami").append("<iframe src='https://giphy.com/embed/px6X1e8dWxdsc' width='50%' height='50%' style='position:relative' frameBorder='0' class='giphy-embed'></iframe><p><a href='https://giphy.com/gifs/street-fighter-popkey-px6X1e8dWxdsc'></a></p>");
     });
 
     cheet('k i c i n up up', function () {
+        $("#projects").hide();
         $("#konami").replaceWith("<div id='konami'></div>");
         $("#konami").append("<img src='img/me_irl.jpg'/>");
     });
 
     cheet('c l e a r', function () {
+        $("#projects").hide();
         $("#konami").replaceWith("<div id='konami'></div>");
     });
 
     $("#project-open").on('click', function () {
+        $("#konami").replaceWith("<div id='konami'></div>");
         $("#projects").show();
     });
 </script>
